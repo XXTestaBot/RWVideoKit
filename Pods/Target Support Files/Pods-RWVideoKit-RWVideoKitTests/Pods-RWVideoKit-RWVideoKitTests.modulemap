@@ -1,0 +1,6 @@
+framework module Pods_RWVideoKit_RWVideoKitTests {
+  umbrella header "Pods-RWVideoKit-RWVideoKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

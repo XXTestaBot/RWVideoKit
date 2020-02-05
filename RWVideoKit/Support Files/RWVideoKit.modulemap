@@ -1,0 +1,6 @@
+framework module XCDYouTubeKit {
+  umbrella header "RWVideoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
