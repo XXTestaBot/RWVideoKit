@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		251B8EAD23EAFB4F000F7443 /* RWVideoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B8EA323EAFB4F000F7443 /* RWVideoKit.framework */; };
 		251B8EB223EAFB4F000F7443 /* RWVideoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B8EB123EAFB4F000F7443 /* RWVideoKitTests.swift */; };
-		251B8EB423EAFB4F000F7443 /* RWVideoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 251B8EA623EAFB4F000F7443 /* RWVideoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25B5F92823EAFCF700A45F2D /* RWOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91323EAFCF400A45F2D /* RWOperation.h */; };
 		25B5F92923EAFCF700A45F2D /* RWPlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91423EAFCF400A45F2D /* RWPlayerScript.m */; };
 		25B5F92A23EAFCF700A45F2D /* RWVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91523EAFCF500A45F2D /* RWVideo+Private.h */; };
@@ -52,7 +51,6 @@
 /* Begin PBXFileReference section */
 		0FCD4779B1F7B700C9E32387 /* Pods-RWVideoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWVideoKit.release.xcconfig"; path = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit.release.xcconfig"; sourceTree = "<group>"; };
 		251B8EA323EAFB4F000F7443 /* RWVideoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWVideoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		251B8EA623EAFB4F000F7443 /* RWVideoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWVideoKit.h; sourceTree = "<group>"; };
 		251B8EA723EAFB4F000F7443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		251B8EAC23EAFB4F000F7443 /* RWVideoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWVideoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251B8EB123EAFB4F000F7443 /* RWVideoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWVideoKitTests.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				25B5F92523EAFCF600A45F2D /* RWVideoWebpage.h */,
 				25B5F91C23EAFCF500A45F2D /* RWVideoWebpage.m */,
 				251B8EBD23EAFC5B000F7443 /* Support Files */,
-				251B8EA623EAFB4F000F7443 /* RWVideoKit.h */,
 				251B8EA723EAFB4F000F7443 /* Info.plist */,
 			);
 			path = RWVideoKit;
@@ -225,7 +222,6 @@
 				25B5F93323EAFCF700A45F2D /* RWLogger.h in Headers */,
 				25B5F92A23EAFCF700A45F2D /* RWVideo+Private.h in Headers */,
 				25B5F92D23EAFCF700A45F2D /* RWVideo.h in Headers */,
-				251B8EB423EAFB4F000F7443 /* RWVideoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RWVideoKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -517,6 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RWVideoKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

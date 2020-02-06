@@ -19,6 +19,8 @@
 #import "RWVideoOperation.h"
 #import "RWVideoPlayerViewController.h"
 
-FOUNDATION_EXPORT double XCDYouTubeKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char XCDYouTubeKitVersionString[];
+//! Project version number for RWVideoKit.
+FOUNDATION_EXPORT double RWVideoKitVersionNumber;
 
+//! Project version string for RWVideoKit.
+FOUNDATION_EXPORT const unsigned char RWVideoKitVersionString[];
