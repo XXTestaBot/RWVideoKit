@@ -29,9 +29,6 @@ s.framework = "UIKit"
 # 8
 s.source_files = "RWVideoKit/**/*.{h,m}"
 
-# 9
-#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
 # 10
 s.swift_version = "4.2"
 
