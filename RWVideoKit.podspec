@@ -27,7 +27,7 @@ s.source = { :git => "https://github.com/XXTestaBot/RWVideoKit.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "RWVideoKit/**/*.{h,m}"
+s.source_files = "RWVideoKit"
 
 
 end

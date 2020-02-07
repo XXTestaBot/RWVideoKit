@@ -6,38 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		251B8EAD23EAFB4F000F7443 /* RWVideoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B8EA323EAFB4F000F7443 /* RWVideoKit.framework */; };
-		251B8EB223EAFB4F000F7443 /* RWVideoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B8EB123EAFB4F000F7443 /* RWVideoKitTests.swift */; };
-		25B5F92823EAFCF700A45F2D /* RWOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91323EAFCF400A45F2D /* RWOperation.h */; };
-		25B5F92923EAFCF700A45F2D /* RWPlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91423EAFCF400A45F2D /* RWPlayerScript.m */; };
-		25B5F92A23EAFCF700A45F2D /* RWVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91523EAFCF500A45F2D /* RWVideo+Private.h */; };
-		25B5F92B23EAFCF700A45F2D /* RWLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91623EAFCF500A45F2D /* RWLogger.m */; };
-		25B5F92C23EAFCF700A45F2D /* RWError.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91723EAFCF500A45F2D /* RWError.h */; };
-		25B5F92D23EAFCF700A45F2D /* RWVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91823EAFCF500A45F2D /* RWVideo.h */; };
-		25B5F92E23EAFCF700A45F2D /* RWDashManifestXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91923EAFCF500A45F2D /* RWDashManifestXML.h */; };
-		25B5F92F23EAFCF700A45F2D /* RWVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91A23EAFCF500A45F2D /* RWVideo.m */; };
-		25B5F93023EAFCF700A45F2D /* RWVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91B23EAFCF500A45F2D /* RWVideoOperation.h */; };
-		25B5F93123EAFCF700A45F2D /* RWVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91C23EAFCF500A45F2D /* RWVideoWebpage.m */; };
-		25B5F93223EAFCF700A45F2D /* RWDashManifestXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91D23EAFCF500A45F2D /* RWDashManifestXML.m */; };
-		25B5F93323EAFCF700A45F2D /* RWLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F91E23EAFCF500A45F2D /* RWLogger.h */; };
-		25B5F93423EAFCF700A45F2D /* RWVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F91F23EAFCF600A45F2D /* RWVideoPlayerViewController.m */; };
-		25B5F93523EAFCF700A45F2D /* RWPlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92023EAFCF600A45F2D /* RWPlayerScript.h */; };
-		25B5F93623EAFCF700A45F2D /* RWClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92123EAFCF600A45F2D /* RWClient.h */; };
-		25B5F93723EAFCF700A45F2D /* RWLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92223EAFCF600A45F2D /* RWLogger+Private.h */; };
-		25B5F93823EAFCF700A45F2D /* RWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F92323EAFCF600A45F2D /* RWClient.m */; };
-		25B5F93923EAFCF700A45F2D /* RWVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92423EAFCF600A45F2D /* RWVideoPlayerViewController.h */; };
-		25B5F93A23EAFCF700A45F2D /* RWVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92523EAFCF600A45F2D /* RWVideoWebpage.h */; };
-		25B5F93B23EAFCF700A45F2D /* RWVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F92623EAFCF600A45F2D /* RWVideoOperation.m */; };
-		25B5F93C23EAFCF700A45F2D /* RWKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F92723EAFCF700A45F2D /* RWKit.h */; };
-		25B5F94323EB163300A45F2D /* RWVideoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F93E23EB163100A45F2D /* RWVideoKit-umbrella.h */; };
-		25B5F94523EB163300A45F2D /* RWVideoKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 25B5F94023EB163200A45F2D /* RWVideoKit.xcconfig */; };
-		25B5F94623EB163300A45F2D /* RWVideoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B5F94123EB163200A45F2D /* RWVideoKit-dummy.m */; };
-		25B5F94723EB163300A45F2D /* RWVideoKit-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 25B5F94223EB163300A45F2D /* RWVideoKit-prefix.pch */; };
-		25EFD5B38DBE2207F097F5BF /* Pods_RWVideoKit_RWVideoKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBB171D9AC91DF310E01B54 /* Pods_RWVideoKit_RWVideoKitTests.framework */; };
-		5BA443F9C4206793BD66EC92 /* Pods_RWVideoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE6A17D71FC30BDF1099E21 /* Pods_RWVideoKit.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		251B8EAE23EAFB4F000F7443 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -49,7 +17,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FCD4779B1F7B700C9E32387 /* Pods-RWVideoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWVideoKit.release.xcconfig"; path = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit.release.xcconfig"; sourceTree = "<group>"; };
 		251B8EA323EAFB4F000F7443 /* RWVideoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWVideoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		251B8EA723EAFB4F000F7443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		251B8EAC23EAFB4F000F7443 /* RWVideoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWVideoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,11 +48,6 @@
 		25B5F94023EB163200A45F2D /* RWVideoKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = RWVideoKit.xcconfig; sourceTree = "<group>"; };
 		25B5F94123EB163200A45F2D /* RWVideoKit-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RWVideoKit-dummy.m"; sourceTree = "<group>"; };
 		25B5F94223EB163300A45F2D /* RWVideoKit-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RWVideoKit-prefix.pch"; sourceTree = "<group>"; };
-		46E2B651825D607D68A8B4C2 /* Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig"; path = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CBB171D9AC91DF310E01B54 /* Pods_RWVideoKit_RWVideoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWVideoKit_RWVideoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE6A17D71FC30BDF1099E21 /* Pods_RWVideoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWVideoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A05594FB2D2BA83EE91F03 /* Pods-RWVideoKit-RWVideoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWVideoKit-RWVideoKitTests.release.xcconfig"; path = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		E1ECB72780040E022F5D00E7 /* Pods-RWVideoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWVideoKit.debug.xcconfig"; path = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA443F9C4206793BD66EC92 /* Pods_RWVideoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251B8EAD23EAFB4F000F7443 /* RWVideoKit.framework in Frameworks */,
-				25EFD5B38DBE2207F097F5BF /* Pods_RWVideoKit_RWVideoKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +74,6 @@
 				251B8EA523EAFB4F000F7443 /* RWVideoKit */,
 				251B8EB023EAFB4F000F7443 /* RWVideoKitTests */,
 				251B8EA423EAFB4F000F7443 /* Products */,
-				CB9EA9A05913F4F7F33B3CE6 /* Pods */,
-				842D2FDFEFEAC765C4DC979C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,26 +137,6 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		842D2FDFEFEAC765C4DC979C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7AE6A17D71FC30BDF1099E21 /* Pods_RWVideoKit.framework */,
-				6CBB171D9AC91DF310E01B54 /* Pods_RWVideoKit_RWVideoKitTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB9EA9A05913F4F7F33B3CE6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1ECB72780040E022F5D00E7 /* Pods-RWVideoKit.debug.xcconfig */,
-				0FCD4779B1F7B700C9E32387 /* Pods-RWVideoKit.release.xcconfig */,
-				46E2B651825D607D68A8B4C2 /* Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig */,
-				D5A05594FB2D2BA83EE91F03 /* Pods-RWVideoKit-RWVideoKitTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -207,21 +144,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B5F94723EB163300A45F2D /* RWVideoKit-prefix.pch in Headers */,
-				25B5F94323EB163300A45F2D /* RWVideoKit-umbrella.h in Headers */,
-				25B5F92823EAFCF700A45F2D /* RWOperation.h in Headers */,
-				25B5F93523EAFCF700A45F2D /* RWPlayerScript.h in Headers */,
-				25B5F93923EAFCF700A45F2D /* RWVideoPlayerViewController.h in Headers */,
-				25B5F92E23EAFCF700A45F2D /* RWDashManifestXML.h in Headers */,
-				25B5F93023EAFCF700A45F2D /* RWVideoOperation.h in Headers */,
-				25B5F92C23EAFCF700A45F2D /* RWError.h in Headers */,
-				25B5F93723EAFCF700A45F2D /* RWLogger+Private.h in Headers */,
-				25B5F93C23EAFCF700A45F2D /* RWKit.h in Headers */,
-				25B5F93623EAFCF700A45F2D /* RWClient.h in Headers */,
-				25B5F93A23EAFCF700A45F2D /* RWVideoWebpage.h in Headers */,
-				25B5F93323EAFCF700A45F2D /* RWLogger.h in Headers */,
-				25B5F92A23EAFCF700A45F2D /* RWVideo+Private.h in Headers */,
-				25B5F92D23EAFCF700A45F2D /* RWVideo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +154,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251B8EB723EAFB4F000F7443 /* Build configuration list for PBXNativeTarget "RWVideoKit" */;
 			buildPhases = (
-				76666DA4C846745BFFDC369F /* [CP] Check Pods Manifest.lock */,
 				251B8E9E23EAFB4F000F7443 /* Headers */,
 				251B8E9F23EAFB4F000F7443 /* Sources */,
 				251B8EA023EAFB4F000F7443 /* Frameworks */,
@@ -251,7 +172,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251B8EBA23EAFB4F000F7443 /* Build configuration list for PBXNativeTarget "RWVideoKitTests" */;
 			buildPhases = (
-				C9C26E3E43A6902A0F916FF6 /* [CP] Check Pods Manifest.lock */,
 				251B8EA823EAFB4F000F7443 /* Sources */,
 				251B8EA923EAFB4F000F7443 /* Frameworks */,
 				251B8EAA23EAFB4F000F7443 /* Resources */,
@@ -307,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B5F94523EB163300A45F2D /* RWVideoKit.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,67 +239,11 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		76666DA4C846745BFFDC369F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RWVideoKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9C26E3E43A6902A0F916FF6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RWVideoKit-RWVideoKitTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		251B8E9F23EAFB4F000F7443 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B5F94623EB163300A45F2D /* RWVideoKit-dummy.m in Sources */,
-				25B5F92923EAFCF700A45F2D /* RWPlayerScript.m in Sources */,
-				25B5F93B23EAFCF700A45F2D /* RWVideoOperation.m in Sources */,
-				25B5F93123EAFCF700A45F2D /* RWVideoWebpage.m in Sources */,
-				25B5F92B23EAFCF700A45F2D /* RWLogger.m in Sources */,
-				25B5F92F23EAFCF700A45F2D /* RWVideo.m in Sources */,
-				25B5F93223EAFCF700A45F2D /* RWDashManifestXML.m in Sources */,
-				25B5F93823EAFCF700A45F2D /* RWClient.m in Sources */,
-				25B5F93423EAFCF700A45F2D /* RWVideoPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251B8EB223EAFB4F000F7443 /* RWVideoKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +393,6 @@
 		};
 		251B8EB823EAFB4F000F7443 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1ECB72780040E022F5D00E7 /* Pods-RWVideoKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -540,7 +401,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RWVideoKit/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,7 +418,6 @@
 		};
 		251B8EB923EAFB4F000F7443 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FCD4779B1F7B700C9E32387 /* Pods-RWVideoKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -566,7 +426,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RWVideoKit/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,7 +443,6 @@
 		};
 		251B8EBB23EAFB4F000F7443 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46E2B651825D607D68A8B4C2 /* Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y89GPRF2C4;
@@ -602,7 +461,6 @@
 		};
 		251B8EBC23EAFB4F000F7443 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A05594FB2D2BA83EE91F03 /* Pods-RWVideoKit-RWVideoKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y89GPRF2C4;
