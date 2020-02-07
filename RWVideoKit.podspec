@@ -8,7 +8,7 @@ s.summary = "RWVideo lets users view videos."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.4.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -29,7 +29,5 @@ s.framework = "UIKit"
 # 8
 s.source_files = "RWVideoKit/**/*.{h,m}"
 
-# 10
-s.swift_version = "4.2"
 
 end

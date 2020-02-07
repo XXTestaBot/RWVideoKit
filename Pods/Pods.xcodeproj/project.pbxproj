@@ -257,46 +257,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3061784918956A782A7927170BE8945E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF0B8652819A4B1104544B2858864E3 /* Pods-RWVideoKit-RWVideoKitTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+		2D57138D7EFEC36C0D8DC58CB658466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,9 +317,9 @@
 			};
 			name = Release;
 		};
-		5D49CBDB849AD8920A0BD9FE5BDC1F6B /* Release */ = {
+		62C3834FE2540A639C7BB1935411CEE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 093DD9F683982F1E36AD3E6061673BF0 /* Pods-RWVideoKit.release.xcconfig */;
+			baseConfigurationReference = 5A25AAB612AD7D51C705C7224D4E98B5 /* Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -371,16 +332,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -389,13 +350,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+		86124AB57E6E490D2C47A86F0A5BAF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -459,7 +419,85 @@
 			};
 			name = Debug;
 		};
-		6EFD1A46C999441D7FD9234607AC496D /* Debug */ = {
+		932D816EB7A647F2D65024256764CB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093DD9F683982F1E36AD3E6061673BF0 /* Pods-RWVideoKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B767E91F6B4B1974B5A50078D86BC089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF0B8652819A4B1104544B2858864E3 /* Pods-RWVideoKit-RWVideoKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E50BFA42FC1A03524F3FF5C9DDBC4124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D85B3BCA2445369D5D3C408B5CD57AE /* Pods-RWVideoKit.debug.xcconfig */;
 			buildSettings = {
@@ -476,7 +514,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit/Pods-RWVideoKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,52 +535,14 @@
 			};
 			name = Debug;
 		};
-		EC6771223DFB026BBD98EC6DFF6E4CBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A25AAB612AD7D51C705C7224D4E98B5 /* Pods-RWVideoKit-RWVideoKitTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RWVideoKit-RWVideoKitTests/Pods-RWVideoKit-RWVideoKitTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		38FEAC2D74ABA52758CC293252A9014A /* Build configuration list for PBXNativeTarget "Pods-RWVideoKit-RWVideoKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC6771223DFB026BBD98EC6DFF6E4CBD /* Debug */,
-				3061784918956A782A7927170BE8945E /* Release */,
+				62C3834FE2540A639C7BB1935411CEE8 /* Debug */,
+				B767E91F6B4B1974B5A50078D86BC089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -550,8 +550,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
-				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+				86124AB57E6E490D2C47A86F0A5BAF7D /* Debug */,
+				2D57138D7EFEC36C0D8DC58CB658466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -559,8 +559,8 @@
 		6E287229932F8F91190099BA8EA360AD /* Build configuration list for PBXNativeTarget "Pods-RWVideoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EFD1A46C999441D7FD9234607AC496D /* Debug */,
-				5D49CBDB849AD8920A0BD9FE5BDC1F6B /* Release */,
+				E50BFA42FC1A03524F3FF5C9DDBC4124 /* Debug */,
+				932D816EB7A647F2D65024256764CB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
